@@ -3,16 +3,21 @@ export const List=({people}) =>{
     return (
     <div>
         <h1>test list </h1>
-        <ul>
+        <table>
+            <tr>
+                <td>name</td>
+                <td>height</td>
+            </tr>
             {
                 people.map(person=>{
-                    return <li key={person.name}>
-                        {person.name} {person.height}
-                    </li>
+                    return <tr key={person.name}>
+                       <td>{person.name} </td>
+                       <td> {person.height}</td>
+                    </tr>
 
                 })
             }
-        </ul>
+        </table>
     </div>
     )
 }

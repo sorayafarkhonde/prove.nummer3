@@ -45,7 +45,7 @@ function App(props) {
         </div>  
       </div>
       <div>
-        <List people={people}/> 
+        <List people={people}/>
       </div>
       <Route exact path="/" component={home}/>
       <Route path="/Login" component={Login}/>

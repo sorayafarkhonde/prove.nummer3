@@ -67,3 +67,18 @@ li a{
     transform: rotate(360deg);
   }
 }
+
+tr:first-child
+{
+  background-color: grey !important;
+  font-weight: bold;
+}
+tr:nth-child(even)
+{
+  background-color:lightslategray;
+}
+tr:nth-child(odd)
+{
+  background-color:lightsteelblue;
+}
+

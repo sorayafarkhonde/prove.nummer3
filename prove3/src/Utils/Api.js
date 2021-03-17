@@ -27,4 +27,5 @@ export const fetchData=async ()=>{
         );
         //console.log(response);
         return response;
+        
 };
